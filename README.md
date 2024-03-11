@@ -1,5 +1,18 @@
-# 1
-# installed tailwind 
+# 1 Flow of app
+
+-create react app
+-installed tailwind and configured it
+-header
+-set up routing
+-login form
+-sign up form
+-Form validation
+-useref hook
+-Firebase setup
+-deploying our app to production
+-create user account and sign up in firebase
+
+
 
 # Planning of the features-
 
