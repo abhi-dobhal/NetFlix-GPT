@@ -29,7 +29,7 @@ const Login=()=>{
  const email=useRef(null);
  const password=useRef(null);
  const name=useRef();
- const navigate=useNavigate();  //given by react router so that we navigate to a certain route
+ 
     const toggleSignInForm=()=>{
             setIsSignForm(!isSignInForm)
     }
@@ -52,8 +52,7 @@ const Login=()=>{
   .then((userCredential) => {
     // Signed up 
     const user = userCredential.user;
-    console.log(user);
-    navigate("/browse")
+    
     // ...
   })
   .catch((error) => {
@@ -73,7 +72,7 @@ const Login=()=>{
     // Signed in 
     const user = userCredential.user;
     console.log(user);
-    navigate("/browse")
+   
     // ...
   })
   .catch((error) => {

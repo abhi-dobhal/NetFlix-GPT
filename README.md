@@ -11,6 +11,13 @@
 -Firebase setup
 -deploying our app to production
 -create user account and sign up in firebase
+-implement sign in user api
+-created redix store with userSlice
+-implemented sign out
+-update profile
+-bugfix:if the user is not logged in to redirect /browse page and vice-versa
+-unsubscribe the onAuthStateChanged callback
+-creating constant file
 
 
 
